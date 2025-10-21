@@ -1,26 +1,120 @@
-/* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
-*/
+/* =====================================================
+   Modern Tech Resume Theme
+   Color Palette:
+   #0A192F - Deep navy background
+   #64FFDA - Neon teal accent
+   #112240 - Section background
+   #CCD6F6 - Light text
+   #8892B0 - Muted text
+   ===================================================== */
 
-/* Global styles 
-------------------------------------*/
+/* Global Styles */
 body {
-    /*background: lightblue;*/
+  background-color: #0A192F;
+  color: #CCD6F6;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #112240;
+}
 
-/* Header & Footer 
-------------------------------------*/
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5em;
+  color: #64FFDA;
+  margin-bottom: 0.3em;
+}
 
+header h2 {
+  font-weight: 400;
+  color: #8892B0;
+}
 
+header p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.1em;
+  color: #CCD6F6;
+}
 
-/* Work Experience
-------------------------------------*/
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #64FFDA;
+  margin-bottom: 20px;
+}
 
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
+.work {
+  background-color: #112240;
+  margin-bottom: 20px;
+}
 
-/* Education
-------------------------------------*/
+.education {
+  background-color: #112240;
+}
+
+/* Headings */
+h2 {
+  font-family: 'Lora', serif;
+  color: #64FFDA;
+  border-bottom: 2px solid #64FFDA;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #CCD6F6;
+  font-family: 'Lora', serif;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+ul li {
+  color: #8892B0;
+}
+
+/* Footer */
+footer {
+  background-color: #112240;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer h2 {
+  color: #64FFDA;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #64FFDA;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #8892B0;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
